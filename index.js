@@ -11,6 +11,5 @@ const questions = [
   'what is JSONP?'
 ];
 
-const capitalizeSentence = () => {
-  return questions.map(question => question.charAt(0).toUpperCase() + question.slice(1,-1) + "?")
-}
+const capitalizeSentence = () => questions.map(question => question.charAt(0).toUpperCase() + question.slice(1))
+
